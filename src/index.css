@@ -20,5 +20,6 @@ html
   width: 100vw;
   overflow-y: scroll;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 

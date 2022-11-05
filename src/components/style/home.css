@@ -10,7 +10,8 @@
 .container {
   text-align: center;
   padding: 1em;
-  margin: 80px auto;
+  margin: 10px auto;
+  margin-bottom: 30px;
   width: 90%;
   max-width:400px;
   border-radius: 8px;
@@ -24,12 +25,14 @@
   font-weight: 400;
 }
 
-.container h1 {
+.container h1 
+{
   font-size: 1.75em;
   height: 112px;
-  padding: .5em;
+  padding: 0.8em;
   background-color: var(--gray);
   color: #fff;
+  border-radius: 6px;
 }
 
 
@@ -72,6 +75,22 @@
   border-left: 1px solid #FFFFFF;
   background-color: var(--bg-gray);
   animation: animatetoright 1s steps(10) infinite alternate;
+}
+.home__social-container
+{
+  display: flex;
+  gap: 30px;
+  margin: 10px auto;
+  padding: 28px;
+
+}
+.home__img-container
+{
+  width: 60px;
+}
+.home__img-container img
+{
+  width: 100%;
 }
 
 @keyframes animatetoright {
@@ -138,5 +157,10 @@
   .home-container
   {
     max-width: 700px;
+    gap: 30px;
+  }
+  .container h1 
+  {
+    padding: 1.2em;
   }
 }

@@ -50,6 +50,11 @@ const Home = () => {
         </button>
         <button onClick={handleDownloadEng} className="home__btn">CV English</button>
       </div>
+      <div className="home__social-container">
+        <div className="home__img-container"><a target="_blank" href="https://github.com/AngelR-Dev?tab=repositories"><img src="./img/github.png" alt="github-img" /></a></div>
+        <div className="home__img-container"><a target="_blank" href="https://www.linkedin.com/in/angel-roldan-373b8724a/"><img src="./img/linkedin.png" alt="linkedin-img" /></a></div>
+        <div className="home__img-container"><a target="_blank" href="https://wa.me/525577261327"><img src="./img/whatsapp.png" alt="whatsapp-img" /></a></div>
+      </div>
     </section>
   );
 };
