@@ -15,6 +15,13 @@
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 30px;
+}
+.projects
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .projects__title
 {
@@ -28,6 +35,9 @@
 {
   margin: 20px auto;
   width: 80%;
+  border-radius: 8px;
+  box-shadow: 1px 1px 6px 2px rgba(175, 187, 45, 0.5);
+  padding: 10px;
 }
 .projects__container img
 {
@@ -36,4 +46,30 @@
 .projects__container img:hover
 {
   cursor: pointer;
+}
+@media (min-width: 765px)
+{
+  .projects__container
+  {
+    width: 75%;
+    height: fit-content;
+    padding: 50px;
+  }
+  .projects__title
+  {
+    font-size: 3rem;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 1024px)
+{
+  .projects__container
+  {
+    max-width: 700px;
+  }
+  .projects__title
+  {
+    margin-top: 0;
+    padding-bottom: 40px;
+  }
 }

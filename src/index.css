@@ -12,15 +12,13 @@
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  /* outline: solid 1px red; */
 }
 html
 {
   background-color: var(--bg-gray);
   width: 100vw;
-  overflow-y: scroll
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
-.App
-{
-  width: 100vw;
-  min-width: 320px
-}
+

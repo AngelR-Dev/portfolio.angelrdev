@@ -64,3 +64,39 @@
 {
   background-color: var(--orange);
 }
+@media (min-width: 765px)
+{
+  .skills-container
+  {
+    width: 75%;
+    height: fit-content;
+    padding: 40px;
+  }
+  .skills__title
+  {
+    font-size: 3rem;
+    margin-top: 50px;
+  }
+  .swiper
+  {
+    margin-top: 0px;
+    width: 90%;
+  }
+  .swiper-slide h4
+  {
+    font-size: 1.8rem;
+    padding: 10px;
+  }
+  .swiper-pagination-bullet
+  {
+    height: 20px;
+    width: 20px;
+  }
+}
+@media (min-width: 1024px)
+{
+  .skills-container
+  {
+    max-width: 700px;
+  }
+}

@@ -27,7 +27,7 @@ const Contact = () => {
 
   return (
     <div id="contact" className="contact-container">
-      <h2>Contact</h2>
+      <h2 className="contact__title">Contact</h2>
       <form className="contact__form" ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="user_name" />

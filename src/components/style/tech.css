@@ -40,3 +40,46 @@
   text-align: center;
   color: #fff;
 }
+@media (min-width: 765px)
+{
+  .tech-container
+  {
+    width: 75%;
+    height: fit-content;
+    padding: 50px;
+  }
+  .tech__title
+  {
+    font-size: 3rem;
+    margin-top: 40px;
+  }
+  .tech
+  {
+    gap: 25px;
+  }
+  .tech__img-box
+  {
+    width: 90px;
+    height: 90px;
+  }
+  .tech__img-box span
+  {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1024px)
+{
+  .tech-container
+  {
+    max-width: 700px;
+  }
+  .tech__title
+  {
+    margin-top: 0px;
+    padding-bottom: 30px;
+  }
+  .tech
+  {
+    gap: 60px
+  }
+}

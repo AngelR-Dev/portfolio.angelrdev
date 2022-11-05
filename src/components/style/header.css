@@ -1,7 +1,7 @@
 .header-container
 {
   overflow: hidden;
-  width: 100%;
+  width: 100vw;
 }
 .header__title
 {
@@ -119,10 +119,63 @@ ul li a
   color: aliceblue;
   transition: 0.5s;
 }
-ul li a:hover
+ul li a:hover,
+.toggle:hover
 {
   background: var(--gray);
   color: var(--yellow);
   border: solid 1px var(--orange);
-  transition: 2s ease;
+  transition: 0.5s ease;
+}
+
+@media (min-width: 765px)
+{
+  .header__title
+  {
+    font-size: 1.8rem;
+    height: 75px;
+    align-items: center;
+    padding: 20px;
+  }
+  .toggle
+  {
+    font-size: 2rem;
+    padding: 10px 25px;
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+  .toggle span
+  {
+    margin-right: 1px;
+    width: 100px;
+    height: 30px;
+    padding-left: 25px;
+    padding-top: 50px;
+  }
+  .toggle span::before,
+  .toggle span::after
+  {
+    height: 4px;
+  }
+  a
+  {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1024px)
+{
+  .toggle span::before,
+  .toggle span::after
+  {
+    width: 30px;
+  }
+  .toggle span
+  {
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+  .navigation
+  {
+    right: -50px;
+  }
 }

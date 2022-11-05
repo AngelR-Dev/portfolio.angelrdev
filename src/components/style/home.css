@@ -119,3 +119,24 @@
 {
   cursor: pointer;
 }
+
+@media (min-width: 765px)
+{
+  .container
+  {
+    max-width: 1200px;
+    width: 500px;
+  }
+  .home__btn
+  {
+    max-width: 230px;
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 1024px)
+{
+  .home-container
+  {
+    max-width: 700px;
+  }
+}
