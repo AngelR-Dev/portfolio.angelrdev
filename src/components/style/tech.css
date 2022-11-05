@@ -1,0 +1,42 @@
+.tech-container
+{
+  display: flex;
+  width: 90%;
+  height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--gray);
+  border: solid var(--yellow);
+  border-radius: 12px;
+}
+.tech-container img
+{
+  width: 100%;
+  padding: 2px;
+}
+.tech
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.tech__title
+{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+}
+.tech__img-box
+{
+  width: 10vw;
+  min-width: 80px;
+  justify-content: center;
+  text-align: center;
+}
+.tech__img-box span
+{
+  text-align: center;
+  color: #fff;
+}

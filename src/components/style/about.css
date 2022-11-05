@@ -1,0 +1,24 @@
+.about-container
+{
+  display: block;
+  width: 90%;
+  height: 80vh;
+  color: #fff;
+  margin: 0 auto;
+  border: solid var(--yellow);
+  background: var(--gray);
+  border-radius: 8px;
+}
+.about__title
+{
+  text-align: center;
+  margin: 20px auto;
+  padding: 22px;
+  font-size: 2rem;
+}
+.about__desc
+{
+  line-height: 32px;
+  padding: 0 15px;
+  font-size: 1.2rem;
+}
